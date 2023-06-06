@@ -1,10 +1,10 @@
 #!usr/bin/python3
-import number
+import random
 number = random.randint(-10000, 10000)
 digit = abs (numer) % 10
 if number < 0 :
     digit = -digit
-print(f"last digit of {number:d} and is ", end="")
+print(f"last digit of {number:d} is {digit:d} and is ", end="")
 if digit > 5:
     print("greater rhan 5")
 elif digit == 0:
