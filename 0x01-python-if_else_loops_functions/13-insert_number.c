@@ -2,10 +2,14 @@
 
 /**
  * insert_node - Insert a number to a kind singl linke lis.
+ *
  * @head: A pointer a head of the linked list.
+ *
  * @number: The number to insert.
+ *
  * Return: if fals
- *         anothe : made new nod
+ *
+ * anothe : made new nod
 */
 
 listint_t *insert_node(listint_t **head, int number)
